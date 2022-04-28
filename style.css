@@ -3,7 +3,7 @@
 :root {
     --bgColor: #E5C3D1;
     --skyLight: #90E0EF;
-    --skyDark: #48CAE4;
+    --skyDark: #0096C7;
     --accentColor: #090a0f;
     --font: 'Karla', sans-serif;
     --delay: .3s;
@@ -12,7 +12,6 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100%;
     background-image: linear-gradient(var(--skyDark), var(--skyLight));
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,10 +39,11 @@ footer {
     position: relative;
     display: block;
     margin: 35px auto 20px;
-    border: solid #090a0f 10px;
+    border: solid #EDF2F8 10px;
     border-radius: 15%;
     max-width: 450px;
     background-color: var(--bgColor);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.5); 
 }
 
 #profilePicture, #profilePicture img {
