@@ -29,6 +29,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-x: hidden;
+    min-width: 420px;
 }
 
 footer {
@@ -44,6 +45,7 @@ footer {
     font-size: 0.8rem;
     color: #717C89;
     text-decoration: none;
+    text-align: right;
 }
 
 .footer:hover {
