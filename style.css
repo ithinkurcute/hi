@@ -9,6 +9,19 @@
     --delay: .3s;
 }
 
+/* mobile improvements */
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .view {
+        width: 600px;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
