@@ -37,8 +37,10 @@ footer {
     right: 10px;
 }
 
-.footer{
+.footer, .verson{
     font-family: var(--font);
+    line-height: 1;
+    margin: 0%;
     font-size: 0.8rem;
     color: #717C89;
     text-decoration: none;
