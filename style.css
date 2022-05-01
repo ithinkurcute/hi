@@ -111,7 +111,7 @@ footer {
     font-family: #717C89;
     text-align: center;
     font-size: 0.5rem;
-    margin: 0px 0px 10px;
+    margin: 0px auto 10px;
 }
 
 @media (hover: hover) {
